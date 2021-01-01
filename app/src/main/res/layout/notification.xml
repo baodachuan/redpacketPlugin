@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="16dp"
+    android:layout_height="45dp">
+
+
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:text="生活小助手"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/start"
+        android:src="@drawable/ic_play_arrow_black_24dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+
+    <ImageView
+        android:id="@+id/stop"
+        android:src="@drawable/ic_stop_black_24dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+
+
+</LinearLayout>
